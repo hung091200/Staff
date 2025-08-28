@@ -1,4 +1,4 @@
-﻿using Job.Models;
+﻿using Job.Models.Entites;
 using Microsoft.EntityFrameworkCore;
 
 namespace Job.Context

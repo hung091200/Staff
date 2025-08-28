@@ -2,10 +2,8 @@
 
 namespace Job.Models
 {
-    public class Staff
+    public class AddStaffDto
     {
-        [Key]
-        public int Id { get; set; }
         public string FullName { get; set; } = null!;
         public string Age { get; set; } = null!;
         public string Gender { get; set; } = null!;
@@ -14,5 +12,6 @@ namespace Job.Models
         public string Address { get; set; } = null!;
         public string Department { get; set; } = null!;
         public string Position { get; set; } = null!;
+
     }
 }

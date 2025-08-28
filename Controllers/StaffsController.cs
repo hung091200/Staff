@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Job.Context;
-using Job.Models;
+using Job.Models.Entites;
 
 namespace Job.Controllers
 {
